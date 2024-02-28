@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula De JavaScript</title> 
-    <style> 
+    <style> /*isso é um comentario em css*/
         body{
 
             background-color: rgb(138, 238, 238);
@@ -19,13 +19,11 @@
     </style> 
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!-- isso tudo é um comentario em html-->
     <p>Já me livrei da maldição</p>
     <script>
-       var cx1 = window.alert('MINHA PRIMEIRA MENSAGEM') //aqui cria um alerta na tela.
-       var cx2 = window.confirm(' Esta gostando de javaScript ?')//aqui cria uma caixa de pergunta, com ok ou cancel como as duas resposta possiveis 
-       var cx3 = window.prompt('Qual é o seu nome ?')//aqui cria uma caixa de pergunta podendo colocar qualquer informação dentro dela.
-       console.log(cx3)
+      var caixa = window.prompt('Qual é o seu nome ?')//aqui cria uma caixa de pergunta podendo colocar qualquer informação dentro dela.
+      window.alert('ola meu camarada, é um prazer te conhecer ' + caixa)
        
     </script>
 </body>
